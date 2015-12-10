@@ -1,0 +1,58 @@
+@import normalize.css;
+@import skeleton.css;
+
+container{
+  position: relative;
+}
+
+body{
+  max-width: 960px;
+}
+
+header{
+  display: block;
+}
+
+h1{
+  display: block;
+}
+
+div{
+  display: block;
+}
+
+p{
+  display: block;
+}
+
+.left{
+  float:left;
+}
+
+#did{
+  font-size: 32px;
+  font-family: 'Yesteryear', cursive;
+}
+
+.tinyFont{
+  font-size:6px;
+}
+
+
+#delicious{
+  display: inline;
+}
+
+#delicious span {
+  margin-top: -1px;
+  vertical-align: top;
+}
+
+#logo{
+  display: inline;
+}
+
+
+.socialMedia{
+  float: right;
+}

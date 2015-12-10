@@ -10,67 +10,80 @@
     <container class="container">
       <header>
         <div id="delicious" class="three.columns">
-          <span>
+          <span id='firstSpan'>
             <div class="left"><img src="img/logo.png" id = "logo" alt=""></div>
             <div class="left" id="did">Delicious</div>
             <p class="tinyFont">THE BEST FOOD BLOG ON THE WEB</p>
-            </span>
-        </div>
-        <div class="socialMedia">
-          <span>
-            <img src="img/fb-icon.png" alt="">
-            <img src="img/twit-icon.png" alt="">
-            <img src="img/gp-icon.png" alt="">
-            <img src="img/insta-icon.png" alt="">
-            <img src="img/flic-icon.png" alt="">
-            <img src="img/pint-icon.png" alt="">
-            <img src="img/flic-icon.png" alt="">
-          </span>
-          <span>
-            <img src="img/rss-icon.png" alt="">
-            <img src="img/mail-icon.png" alt="">
           </span>
         </div>
-        <div class="grayBar"></div>
+        <div class="socialMedia right">
+          <span>
+            <a href="http://www.facebook.com"><img src="img/fb-icon.png" alt=""></a>
+            <a href="http://www.twitter.com"><img src="img/twit-icon.png" alt=""></a>
+            <a href="http://www.plus.google.com"><img src="img/gp-icon.png" alt=""></a>
+            <a href="http://www.instagram.com"><img src="img/insta-icon.png" alt=""></a>
+            <a href="http://www.flickr.com"><img src="img/flic-icon.png" alt=""></a>
+            <a href="http://www.pinterest.com"><img src="img/pint-icon.png" alt=""></a>
+          <span>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/rss-icon.png" alt=""></a>
+            <a href="mailto:someone@chocolatepizza.com"><img src="img/mail-icon.png" alt=""></a>
+          </span>
+        </div>
       </header>
-      <h1>Chocolate Pizza</h1>
+      <div class="grayBar" id="gray1"></div>
+      <h1 id="pizza">Chocolate Pizza</h1>
       <div>
-        <p class="tinyFont">Posted on 15 Dec 2013/Desserts</p>
+        <p class="tinyFont left">Posted on 15 Dec 2013/Desserts</p>
       </div>
-      <div>
-        <img src="img/print-icon.png" alt="">
-        <h2>PRINT</h2>
+      <div id= 'posted'>
+        <h2 class="tinyFont right" id="print">PRINT</h2>
+        <img src="img/print-icon.png" id="printImg" class="right" alt="">
       </div>
       <section>
-        <img src="img/choco-pizza.png" alt="">
+        <img src="img/choco-pizza.png" alt="" id="mainImg">
       </section>
       <section>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum beatae maxime nesciunt similique iure unde dolores fugiat enim cupiditate voluptates repellendus mollitia, nam illum, fugit delectus eos. Explicabo, magni perspiciatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, modi accusantium dolor perferendis provident voluptates commodi, in quidem! Nemo voluptas a cupiditate porro, illo odio alias perspiciatis aspernatur. Magni, dolorum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum beatae maxime nesciunt similique iure unde dolores fugiat enim cupiditate voluptates repellendus mollitia, nam illum, fugit delectus eos. Explicabo, magni perspiciatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, modi accusantium dolor perferendis provident voluptates commodi, in quidem! Nemo voluptas a cupiditate porro, illo odio alias perspiciatis aspernatur. Magni, dolorum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum beatae maxime nesciunt similique iure unde dolores fugiat enim cupiditate voluptates repellendus mollitia, nam illum, fugit delectus eos. Explicabo, magni perspiciatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, modi accusantium dolor perferendis provident voluptates commodi, in quidem! Nemo voluptas a cupiditate porro, illo odio alias perspiciatis aspernatur. Magni, dolorum.</p>
       </section>
-      <section class="ingredients">
-        <ul id="receipeBox">
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-          <li>1/2 cup marscipone</li>
-        </ul>
+      <section id="ingredients">
+        <div class="left">
+          <ul id="receipeBox1">
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul id="receipeBox2">
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+            <li><input type="checkbox">1/2 cup marscipone</li>
+          </ul>
+        </div>
       </section>
-      <div>
-        <img src="img/van-pic.png" alt="">
-        <h3>Vanessa Stevenson</h3>
-        <p>Food enthusiast, photography fan.  Add a pinch of raw foodism and that's pretty much who I am.</p>
-      </div>
-      <div>
-        <button id="submit">Share Recipe</button>
-      </div>
+      <div class="grayBar" id="gray2"></div>
+      <section id="problem">
+        <div id='about' class='left'>
+          <img src="img/van-pic.png" alt="" id="van">
+          <div>
+            <h3>Vanessa Stevenson</h3>
+            <p id='blah'>Food enthusiast, photography fan.  Add a pinch of raw foodism and that's pretty much who I am.
+            </p>
+          </div>
+          <div class="right">
+            <button id="submit">Share Recipe</button>
+          </div>
+        </div>
+      </section>
+
       <footer>
         <div>
           <img src="img/small-logo.png" alt="">

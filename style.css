@@ -1,9 +1,9 @@
 @import normalize.css;
 @import skeleton.css;
 
-container{
+/*container{
   position: relative;
-}
+}*/
 
 body{
   max-width: 960px;
@@ -25,13 +25,43 @@ p{
   display: block;
 }
 
+footer {
+  /*display: flex;*/
+  display: block;
+  text-align: center;
+  font-size: 10px;
+
+
+}
+section {
+  display: block;
+}
 .left{
   float:left;
+}
+.right{
+  float: right;
+}
+
+#firstSpan{
+  display: inline-block;
+  /*line-height: 30px;*/
+}
+
+#submit {
+  height: 40px;
+  width: 100px;
+  background-color: #464CAB;
+  color: white;
+  font-family: verdana;
 }
 
 #did{
   font-size: 32px;
   font-family: 'Yesteryear', cursive;
+}
+#mainImg{
+  width: 960px;
 }
 
 .tinyFont{
@@ -52,7 +82,58 @@ p{
   display: inline;
 }
 
+#ingredients {
+  background-image: url(./img/list-bg.png);
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  list-style-type: none;
+}
+.grayBar {
+  height: 10px;
+  min-width: 100%;
+  background-color: gray;
+  color: gray;
+}
+#about {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+#print {
+  text-align: right;
+}
+#printImg{
+  float: right;
+  text-align: right;
+}
 
+#van {
+  height: 50px;
+  width: 50px;
+}
+#gray1{
+  position: absolute;
+  margin-top: 75px;
+  max-width: 960px;
+}
+#pizza{
+  margin-top: 125px;
+  line-height: 0px;
+  margin-bottom: 10px;
+}
+#posted {
+  width: 960px;
+}
+#gray2 {
+  margin: 10px;
+}
+#problem
+/*#blah {
+  width: 70%;
+}*/
 .socialMedia{
   float: right;
 }
